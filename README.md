@@ -20,3 +20,6 @@ then
 
 
 Edit the relevant info in the index.html file
+
+Example:
+
