@@ -23,3 +23,4 @@ Edit the relevant info in the index.html file
 
 Example:
 
+https://github.com/djquazzi/Apple-Profile-Manager-Report/blob/master/pm.png
