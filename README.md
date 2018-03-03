@@ -16,7 +16,7 @@ sudo -u _devicemgr psql -U _devicemgr -d devicemgr_v2m0 -h /Library/Server/Profi
 then
 
 
-\copy (select "DeviceName","SerialNumber","ProductName","mdm_target_type","OSVersion","IMEI","last_checkin_time","IsSupervised","activation_lock_bypass_code","last_push_time" from devices) to '/PATHTOYOURWEBSITEFOLDER/ProfileManagerReport.csv' (format csv, delimiter ';’)
+\copy (select "DeviceName","SerialNumber","ProductName","mdm_target_type","OSVersion","IMEI","last_checkin_time","IsSupervised","activation_lock_bypass_code","last_push_time" from devices) to '/PATHTOYOURWEBSITEFOLDER/ProfileManagerReport.csv' (format csv, delimiter ';')
 
 
 Edit the relevant info in the index.html file
