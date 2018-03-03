@@ -10,7 +10,7 @@ Copy all files to /PATHTOYOURWEBSITEFOLDER
 You will need to export the data from Profile Manager
 
 
-sudo psql -U _devicemgr -d devicemgr_v2m0 -h /Library/Server/ProfileManager/Config/var/PostgreSQL
+sudo -u _devicemgr psql -U _devicemgr -d devicemgr_v2m0 -h /Library/Server/ProfileManager/Config/var/PostgreSQL 
 
 
 then
